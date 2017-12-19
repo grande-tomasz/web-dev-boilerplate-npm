@@ -1,0 +1,11 @@
+{
+  "name": "web-dev-template-npm",
+  "version": "1.0.0",
+  "description": "Web development template package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomasz Grande",
+  "license": "MIT"
+}
