@@ -1,47 +1,48 @@
-<h1>Boilerplate package for building front-end web projects</h1>
+# Boilerplate package for building front-end web projects
 
-<h2>The Purpose</h2>
-<p>The purpose for creating this package was to prepare a good starting point and automation tool for building front-end web projects.</p>
+The purpose for creating this package was to prepare a good starting point and automation tool for building front-end web projects.
 
-<h2>Contents</h2>
-<p>The package focuses on two main tasks which consist of some smaller ones.</p>
+## Usage
+1. Download this repository and change its folder name.
+2. Install all modules from devDependencies using `npm install` command (requires Node.js installed).
+3. Change the content of README.md file.
+4. Enjoy!
 
-<b>build</b> – builds the whole distribution folder and compiles all the required files
-<ul>
-  <li><b>rm-rf</b> – removes files from distribution directory</li>
-  <li><b>mkdir-p</b> - creates new directories used in distribution</li>
-  <li><b>cp-r</b> - copies files which will not be processed to distribution directory</li>
-  <li><b>sass</b> - compiles scss files to css</li>
-  <li><b>autoprefixer</b> - adds vendor prefixes to css rules</li>
-  <li><b>minify:html</b> - minifies index.html document based on the default configuration of <a href="https://kangax.github.io/html-minifier/" target="_blank">HTML Minifier</a></li>
-  <li><b>minify:css</b> - minifies style.css file</li>
-  <li><b>minify:js</b> - minifies JavaScript files</li>
-  <li><b>minify:img</b> - compresses images</li>
-</ul>
+## Contents
+The package focuses on two main tasks which consist of some smaller ones
 
-<b>watch</b> – watches for changes and shows them directly in the browser
-<ul>
-  <li><b>watch:sass</b> – compiles scss files to css and adds vendor prefixes to css rules when scss files change</li>
-  <li><b>browse:src</b> - browses source files and synchronizes a browser with their changes</li>
-</ul>
+**build** – builds the whole distribution folder and compiles all the required files
+* **rm-rf** – removes files from distribution directory
+* **mkdir-p** - creates new directories used in distribution
+* **cp-r** - copies files which will not be processed to distribution directory
+* **sass** - compiles scss files to css
+* **autoprefixer** - adds vendor prefixes to css rules
+* **minify:html** - minifies index.html document based on the default configuration of [HTML Minifier]("https://kangax.github.io/html-minifier/")
+* **minify:css** - minifies style.css file
+* **minify:js** - minifies JavaScript files
+* **minify:img** - compresses images
 
-<b>postinstall </b> – runs build and watch tasks after installing the dependencies of the package to automate its use
+**watch** – watches for changes and shows them directly in the browser
+* **watch:sass** – compiles scss files to css and adds vendor prefixes to css rules when scss files change
+* **browse:src** - browses source files and synchronizes a browser with their changes
 
-<h2>Development dependencies</h2>
+**edit** - opens new instance of Visual Studio Code with all the default project files
 
-<p>The package is dependent on the following modules:</p>
-<ul>
-  <li><a href="http://www.npmjs.com/package/rimraf" target="_blank"><b>rimraf</b></a></li>
-  <li><a href="http://www.npmjs.com/package/mkdirp" target="_blank"><b>mkdirp</b></a></li>
-  <li><a href="http://www.npmjs.com/package/cpr" target="_blank"><b>cpr</b></a></li>
-  <li><a href="http://www.npmjs.com/package/postcss-cli" target="_blank"><b>postcss-cli</b></a></li>
-  <li><a href="http://www.npmjs.com/package/node-sass" target="_blank"><b>node-sass</b></a></li>
-  <li><a href="http://www.npmjs.com/package/autoprefixer" target="_blank"><b>autoprefixer</b></a></li>
-  <li><a href="http://www.npmjs.com/package/html-minifier" target="_blank"><b>html-minifier</b></a></li>
-  <li><a href="http://www.npmjs.com/package/clean-css" target="_blank"><b>clean-css</b></a></li>
-  <li><a href="http://www.npmjs.com/package/uglify-js" target="_blank"><b>uglify-js</b></a></li>
-  <li><a href="http://www.npmjs.com/package/imagemin-cli" target="_blank"><b>imagemin-cli</b></a></li>
-  <li><a href="http://www.npmjs.com/package/browser-sync" target="_blank"><b>browser-sync</b></a></li>
-  <li><a href="http://www.npmjs.com/package/onchange" target="_blank"><b>onchange</b></a></li>
-  <li><a href="http://www.npmjs.com/package/npm-run-all" target="_blank"><b>npm-run-all</b></a></li>
-</ul>
+**postinstall** – runs build, edit and watch tasks after installing the dependencies of the package to automate its use
+
+## Development dependencies
+
+The package is dependent on the following modules:
+* <a href="http://www.npmjs.com/package/rimraf" target="_blank">**rimraf**</a>
+* <a href="http://www.npmjs.com/package/mkdirp" target="_blank">**mkdirp**</a>
+* <a href="http://www.npmjs.com/package/cpr" target="_blank">**cpr**</a>
+* <a href="http://www.npmjs.com/package/postcss-cli" target="_blank">**postcss-cli**</a>
+* <a href="http://www.npmjs.com/package/node-sass" target="_blank">**node-sass**</a>
+* <a href="http://www.npmjs.com/package/autoprefixer" target="_blank">**autoprefixer**</a>
+* <a href="http://www.npmjs.com/package/html-minifier" target="_blank">**html-minifier**</a>
+* <a href="http://www.npmjs.com/package/clean-css" target="_blank">**clean-css**</a>
+* <a href="http://www.npmjs.com/package/uglify-js" target="_blank">**uglify-js**</a>
+* <a href="http://www.npmjs.com/package/imagemin-cli" target="_blank">**imagemin-cli**</a>
+* <a href="http://www.npmjs.com/package/browser-sync" target="_blank">**browser-sync**</a>
+* <a href="http://www.npmjs.com/package/onchange" target="_blank">**onchange**</a>
+* <a href="http://www.npmjs.com/package/npm-run-all" target="_blank">**npm-run-all**</a>
