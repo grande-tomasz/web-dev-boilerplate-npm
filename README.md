@@ -5,16 +5,16 @@ The purpose for creating this package was to prepare a good starting point and a
 ## Usage
 1. Download this repository and change its folder name.
 2. Install all modules from devDependencies using `npm install` command (requires Node.js installed).
-3. Change the content of README.md file.
+3. Adjust package.json file to your needs and change the description in README.md file.
 4. Enjoy!
 
 ## Contents
-The package focuses on two main tasks which consist of some smaller ones
+Below there are descriptions of all main tasks with their subtasks
 
-**build** – builds the whole distribution folder and compiles all the required files
-* **rm-rf** – removes files from distribution directory
-* **mkdir-p** - creates new directories used in distribution
-* **cp-r** - copies files which will not be processed to distribution directory
+**build** – builds the whole docs folder and compiles all the required files
+* **rm-rf** – removes files from docs directory
+* **mkdir-p** - creates new directories used in docs
+* **cp-r** - copies files which will not be processed to docs directory
 * **sass** - compiles scss files to css
 * **autoprefixer** - adds vendor prefixes to css rules
 * **minify:html** - minifies index.html document based on the default configuration of [HTML Minifier]("https://kangax.github.io/html-minifier/")
