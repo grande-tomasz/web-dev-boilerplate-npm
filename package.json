@@ -12,7 +12,7 @@
     "cp-r": "cpr fonts dist/fonts && cpr libs dist/libs",
     "dist-prep": "npm run rm-rf && npm run mkdir-p && npm run cp-r",
     "minify:html": "html-minifier --collapse-boolean-attributes --collapse-whitespace --decode-entities --html5 --process-conditional-comments --remove-attribute-quotes --remove-comments --remove-empty-attributes --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-style-link-type-attributes --remove-tag-whitespace --sort-attributes --sort-class-name --trim-custom-fragments --use-short-doctype -o dist/index.html index.html",
-    "minify:css": "cleancss -o dist/css/style.css css/style.css",
+    "minify:css": "cleancss --skip-rebase -o docs/css/style.css css/style.css",
     "minify:js": "uglifyjs js/*.js -m -c -o dist/js/app.js",
     "minify:img": "imagemin img/* -o dist/img",
     "minify": "npm run minify:html && npm run minify:css && npm run minify:js && npm run minify:img",
