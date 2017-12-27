@@ -45,4 +45,4 @@ The package is dependent on the following modules:
 * <a href="http://www.npmjs.com/package/imagemin-cli" target="_blank">**imagemin-cli**</a>
 * <a href="http://www.npmjs.com/package/browser-sync" target="_blank">**browser-sync**</a>
 * <a href="http://www.npmjs.com/package/onchange" target="_blank">**onchange**</a>
-* <a href="http://www.npmjs.com/package/npm-run-all" target="_blank">**npm-run-all**</a>
+* <a href="https://www.npmjs.com/package/concurrently" target="_blank">**concurrently**</a>
