@@ -20,6 +20,7 @@ Below there are descriptions of all main tasks with their subtasks
 * **minify:html** - minifies index.html document based on the default configuration of [HTML Minifier]("https://kangax.github.io/html-minifier/")
 * **minify:css** - minifies style.css file
 * **minify:js** - minifies JavaScript files
+* **minify:svg** - optimizes SVG vector graphics files
 * **minify:img** - compresses images
 
 **watch** – watches for changes and shows them directly in the browser
@@ -42,6 +43,7 @@ The package is dependent on the following modules:
 * <a href="http://www.npmjs.com/package/html-minifier" target="_blank">**html-minifier**</a>
 * <a href="http://www.npmjs.com/package/clean-css" target="_blank">**clean-css**</a>
 * <a href="http://www.npmjs.com/package/uglify-js" target="_blank">**uglify-js**</a>
+* <a href="https://www.npmjs.com/package/svgo" target="_blank">**svgo**</a>
 * <a href="http://www.npmjs.com/package/imagemin-cli" target="_blank">**imagemin-cli**</a>
 * <a href="http://www.npmjs.com/package/browser-sync" target="_blank">**browser-sync**</a>
 * <a href="http://www.npmjs.com/package/onchange" target="_blank">**onchange**</a>
